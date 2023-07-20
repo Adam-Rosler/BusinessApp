@@ -1,0 +1,26 @@
+Tracking Number Handler Program (backend software):
+grabs the tracking number email, and inserts into database for each corresponding order, runs every 5-10 minutes updating the data.
+when a tracking email is not found, will let the user know so they can add it in
+	-uses the imap data I have, adding any and every email that corresponds with the given Order number
+
+Order Lookup / Prep Program (for employees):
+Allows user to update recieved inventory and prep the inventory
+	-works based off the tracking number handler since the any data will be looked up through there
+
+
+Inventory Adder Program (for me):
+Allows user to add a specified asin to the order database
+	-gets updated by google spreadsheets backend
+
+
+
+TESTING CHECKS:
+
+	PREPPAGE: WORKS
+	ORDERSEARCH: WORKS
+	ORDERTRACKER: WORKS
+	ITEMCATALOG: WORKS
+	ORDERADDER: WORKS
+	ORDERTRACKER: WORKS
+
+
